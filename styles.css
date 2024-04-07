@@ -35,8 +35,8 @@
   height: 306px;
   top: 354px;
   left: 80px;
-  padding: 24px 40px 32px 40px;
-  gap: 20px;
+  padding: 40px 40px 32px 40px;
+
   opacity: 0px;
   background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%), #ffffff;
 }
@@ -227,8 +227,17 @@
   background-color: var(--pr-color);
   color: var(--bg-color);
   margin-top: 20px;
+  padding: 0;
 }
 
 .text {
   text-align: left;
+}
+.mb-4{
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px; */
+    margin-top: 10px;
+    margin-bottom: 0;
 }
